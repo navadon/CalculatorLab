@@ -17,6 +17,8 @@ namespace CPE200Lab1
             InitializeComponent();
         }
 
+        int foo;
+
         private void btnNumber_Click(object sender, EventArgs e)
         {
             string digit = ((Button)sender).Text;
